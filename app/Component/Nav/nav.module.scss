@@ -1,0 +1,28 @@
+.container {
+  font-family: Inter;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  &--fluid {
+    max-width: unset;
+    width: 100%;
+  }
+  &--no-pading {
+    padding: 0;
+  }
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-Montserrat);
+}
+.list {
+  display: block;
+  align-items: center;
+}
+.login {
+  margin-right: 10px;
+}
