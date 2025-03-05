@@ -13,14 +13,16 @@ export default function Nav() {
             <Image src="/icon.png" width={75} height={80} alt="icon" />
           </div>
           <div className={style.lists}>
-            <Image
-              src="/Img/nav/icon.png"
-              className={style.login}
-              width={20}
-              height={20}
-              alt="login"
-            />
-            Вхід
+            <Link className={style.link_login} href="/login">
+              <Image
+                src="/Img/nav/icon.png"
+                className={style.login}
+                width={20}
+                height={20}
+                alt="login"
+              />
+              Вхід
+            </Link>
           </div>
         </div>
       </div>
