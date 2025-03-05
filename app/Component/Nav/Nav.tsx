@@ -1,10 +1,11 @@
 import style from './nav.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import base from '../../Style/base/base.module.scss';
 export default function Nav() {
   return (
     <nav>
-      <div className={style.container}>
+      <div className={base.container}>
         <div className={style.lists}>
           <div className={style.lists}>
             <Link href="/">Корисна інформація</Link>

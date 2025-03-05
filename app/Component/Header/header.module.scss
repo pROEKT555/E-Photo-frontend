@@ -1,0 +1,38 @@
+.walper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.about {
+  display: flex;
+  column-gap: 7px;
+}
+.about_title {
+}
+.about_icon {
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  &_jpg {
+    background-color: #c87629;
+  }
+  &_png {
+    background-color: #88aa77;
+  }
+  &_bmp {
+    background-color: #3377a2;
+  }
+  &_gif {
+    background-color: #54383b;
+  }
+  &_webp {
+    background-color: #fa9e71;
+  }
+}
+// .header_img {
+//   display: flex;
+//   justify-content: center;
+// }
