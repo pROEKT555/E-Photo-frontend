@@ -1,6 +1,6 @@
 import style from './header.module.scss';
 import Image from 'next/image';
-import base from '../../style/base/base.module.scss';
+import base from '../../Style/base/base.module.scss';
 import up_loading from '../../Img/header/up-loading.png';
 import warning from '../../Img/header/warning.png';
 export default function Header() {
